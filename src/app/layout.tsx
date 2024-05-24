@@ -64,6 +64,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="!scroll-smooth" suppressHydrationWarning>
+      <meta
+        name="google-site-verification"
+        content="eIQF3JEbwoKG0FBrI-HGuug-rUM5hgbHmQLq98ZPXsE"
+      />
       {googleAnalyticsId ? (
         <head>
           <Script

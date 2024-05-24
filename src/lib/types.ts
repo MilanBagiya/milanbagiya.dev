@@ -28,6 +28,11 @@ export type ProjectDetails = {
   technologies: string[];
 };
 
+export type WorkDetails = {
+  name: string;
+  previewImage: string | any;
+};
+
 export type TestimonialDetails = {
   personName: string;
   personAvatar?: string | StaticImageData;

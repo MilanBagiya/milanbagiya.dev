@@ -41,6 +41,7 @@ import {
   ProjectDetails,
   TechDetailsClass,
   TestimonialDetails,
+  WorkDetails,
 } from "@/lib/types";
 
 export const EXTERNAL_LINKS = {
@@ -335,6 +336,13 @@ export const PROJECTS: ProjectDetails[] = [
       "MySql",
       "Node.JS",
     ],
+  },
+];
+
+export const WORKS: WorkDetails[] = [
+  {
+    name: "Wingie",
+    previewImage: ProjectWingie,
   },
 ];
 
