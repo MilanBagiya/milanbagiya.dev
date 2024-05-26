@@ -1,14 +1,12 @@
 import Image from "next/image";
 import { MapPin } from "lucide-react";
 
+import MilanHeadshot from "/public/images/milan-headshot.png";
 import SocialIcons from "@/components/data-display/social-icons";
 import Typography from "@/components/general/typography";
 import Container from "@/components/layout/container";
 
 const HeroSection = () => {
-  const MilanHeadshot: string =
-  "https://firebasestorage.googleapis.com/v0/b/e-commerce-c5a0c.appspot.com/o/images%2Fproducts%2Fmilan-headshot.png?alt=media&token=619";
-
   return (
     <Container id="hero">
       <div className="flex flex-col gap-12 md:flex-row">
